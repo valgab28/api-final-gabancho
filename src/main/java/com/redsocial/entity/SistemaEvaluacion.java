@@ -15,6 +15,7 @@ public class SistemaEvaluacion {
 
 	@Id
 	private int idSistemaEvaluacion;
+	private String nombre;
 	private String formula;
 	private String estado;
 }
